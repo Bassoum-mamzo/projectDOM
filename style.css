@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.cart {
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+button {
+    cursor: pointer;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button.like {
+    background-color: transparent;
+    color: red;
+    font-size: 20px;
+}
+
+button.liked {
+    color: #ff6f61;
+}
+
+button.remove {
+    background-color: #ff4d4d;
+}
+
+h1, h2 {
+    text-align: center;
+}
